@@ -10,11 +10,11 @@ export const HoverEffect = ({
   items: {
     title: string;
     icon: React.ReactNode;
-    color: string; // Add the color property here
+    color: string; 
   }[];
   className?: string;
 }) => {
-  let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
     <div

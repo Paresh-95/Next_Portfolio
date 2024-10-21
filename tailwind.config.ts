@@ -59,16 +59,37 @@ const config: Config = {
         },
       },
       animation: {
-        spotlight: "spotlight 2s ease .75s 1 forwards",
+        "move-up": "move-up 1s linear",
+        "move-down": "move-down 1s linear",
       },
       keyframes: {
+        "move-up": {
+          from: {
+            transform: "translateY(10px)",
+            opacity: "0",
+          },
+          to: {
+            transform: "translateY(0px)",
+            opacity: "1",
+          },
+        },
+        "move-down": {
+          from: {
+            transform: "translateY(-10px)",
+            opacity: "0",
+          },
+          to: {
+            transform: "translateY(0px)",
+            opacity: "1",
+          },
+        },
         spotlight: {
           "0%": {
-            opacity: 0,
+            opacity: "0",
             transform: "translate(-72%, -62%) scale(0.5)",
           },
           "100%": {
-            opacity: 1,
+            opacity: "1",
             transform: "translate(-50%,-40%) scale(1)",
           },
         },

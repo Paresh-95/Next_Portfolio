@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Title({text,className}:{text:string,className?:string}) {
   return (
-    <div className={`group-hover:scale-125 ${className} `}>
+    <div className={`hover:scale-125 ${className} `}>
       <h1 className=" text-3xl font-bold group-hover:text-green-400 ">
         {text}
       </h1>

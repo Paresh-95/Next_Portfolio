@@ -1,8 +1,8 @@
 import React from "react";
 import Title from "./Title";
 import { HoverEffect } from "@/components/ui/card-hover-effect";
-import { FaReact, FaNodeJs, FaDatabase, FaJs, FaJava, FaDocker } from "react-icons/fa";
-import { SiMongodb, SiExpress, SiMysql, SiCplusplus } from "react-icons/si"; // Import specific icons
+import { FaReact, FaNodeJs, FaJs, FaJava, FaDocker } from "react-icons/fa";
+import { SiMongodb, SiExpress, SiMysql, SiCplusplus } from "react-icons/si"; 
 
 export const projects = [
   {
@@ -58,7 +58,7 @@ export default function Skills() {
     <div>
       <Title
         text="Skills </>"
-        className="flex flex-col items-center justify-center -rotate-6"
+        className="flex flex-col items-center  justify-center -rotate-6"
       />
       <div className="max-w-5xl mx-auto px-8">
         <HoverEffect items={projects} />
