@@ -16,7 +16,7 @@ export default function page() {
     <div className="container mx-auto px-4 py-8">
       <header className="text-center mb-8">
         <Avatar className="w-32 h-32 mx-auto mb-4">
-          <AvatarImage src="/placeholder.svg?height=128&width=128" alt="Paresh Bhamare" />
+          <AvatarImage src="/pic.png" alt="Paresh Bhamare" />
           <AvatarFallback>PB</AvatarFallback>
         </Avatar>
         <h1 className="text-3xl font-bold mb-2">Paresh Bhamare</h1>

@@ -1,9 +1,9 @@
-import React from "react";
+"use client"
+import React,{useState} from "react";
 import Link from "next/link";
 import Title from "./Title";
 import { MovingBorderBtn } from "@/components/ui/moving-border";
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
-import { HoverBorderGradient } from "@/components/ui/hover-border-gradient";
 
 const words1 = [
   {
@@ -15,6 +15,13 @@ const words1 = [
 ];
 
 function HeroSection() {
+
+  const [src, setSrc] = useState("");
+
+  const viewResume = () =>{
+      setSrc("https://drive.google.com/file/d/1YdNMpcj20aTT7ifz40iLFZ0KTCqannNs/view?usp=sharing")
+  }
+
   return (
     <div className=" min-h-[60vh] animate-move-up  flex gap-16 flex-col-reverse lg:gap-0 lg:flex-row items-center justify-between">
       <div className="space-y-10 text-center lg:text-left">
@@ -37,7 +44,8 @@ function HeroSection() {
           </Link>
           <Link
             className="inline-block group"
-            href="https://drive.google.com/uc?export=download&id=1Q494GNt2fsPKVFeXZF8gWlDLGNT4d_9j"
+            onClick={viewResume}
+            href={src}
           >
             <Title text="Resume" />
           </Link>
