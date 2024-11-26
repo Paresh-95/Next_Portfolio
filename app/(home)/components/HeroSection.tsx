@@ -16,11 +16,6 @@ const words1 = [
 
 function HeroSection() {
 
-  const [src, setSrc] = useState("");
-
-  const viewResume = () =>{
-      setSrc("https://drive.google.com/file/d/1YdNMpcj20aTT7ifz40iLFZ0KTCqannNs/view?usp=sharing")
-  }
 
   return (
     <div className=" min-h-[60vh] animate-move-up  flex gap-16 flex-col-reverse lg:gap-0 lg:flex-row items-center justify-between">
@@ -44,8 +39,8 @@ function HeroSection() {
           </Link>
           <Link
             className="inline-block group"
-            onClick={viewResume}
-            href={src}
+          
+            href="https://drive.google.com/file/d/1YdNMpcj20aTT7ifz40iLFZ0KTCqannNs/view?usp=sharing"
           >
             <Title text="Resume" />
           </Link>
