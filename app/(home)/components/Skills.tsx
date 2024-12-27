@@ -2,13 +2,19 @@ import React from "react";
 import Title from "./Title";
 import { HoverEffect } from "@/components/ui/card-hover-effect";
 import { FaReact, FaNodeJs, FaJs, FaJava, FaDocker } from "react-icons/fa";
-import { SiMongodb, SiExpress, SiMysql, SiCplusplus } from "react-icons/si"; 
+import { SiMongodb, SiExpress, SiMysql, } from "react-icons/si"; 
+import { RiNextjsFill } from "react-icons/ri";
 
 export const projects = [
   {
     title: "React.js",
     icon: <FaReact size={40} />,
     color: "#61DBFB"
+  },
+  {
+    title: "Next.js",
+    icon: <RiNextjsFill size={40} />,
+    color: "#2A3335"
   },
   {
     title: "Node.js",
@@ -34,11 +40,6 @@ export const projects = [
     title: "Java",
     icon: <FaJava size={50} />,
     color: "#5382A1"
-  },
-  {
-    title: "C++",
-    icon: <SiCplusplus size={50} />,
-    color: "#00599C"
   },
   {
     title: "MySQL",
