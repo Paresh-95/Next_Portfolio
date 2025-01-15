@@ -62,6 +62,22 @@ export default function Projects() {
       background: "bg-green-500",
     },
     {
+      title: "Akatsuki Coding Club's - Website",
+      tech: [
+        
+        <SiReact className="text-blue-500" key="react" />,
+        <SiNodedotjs className="text-green-700" key="node" />,
+        <SiExpress className="text-gray-600" key="express" />,
+        <SiMongodb className="text-green-600" key="mongodb" />,
+        <SiJavascript className="text-yellow-500" key="javascript" />,
+        <SiTypescript className="text-blue-300" key="typescript" />,
+        <SiTailwindcss className="text-blue-400" key="tailwind" />,
+      ],
+      link: "https://akatsuki.rcpit.ac.in/",
+      cover: "/akatsuki.png",
+      background: "bg-green-500",
+    },
+    {
       title: "Kanban Task Management Tool",
       tech: [
         <SiReact className="text-blue-500" key="react" />,
