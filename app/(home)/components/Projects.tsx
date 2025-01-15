@@ -46,7 +46,7 @@ export default function Projects() {
       background: "bg-indigo-500",
     },
     {
-      title: "Shortcut - A Bloging Platform",
+      title: "Shortcut - A Bloging Platform ",
       tech: [
         <RiNextjsFill className="text-white" key="next" />,
         ,
@@ -59,22 +59,6 @@ export default function Projects() {
       ],
       link: "https://blog-app-frontend-attack-capital.vercel.app/",
       cover: "/blog.png",
-      background: "bg-green-500",
-    },
-    {
-      title: "Akatsuki Coding Club's - Website",
-      tech: [
-        
-        <SiReact className="text-blue-500" key="react" />,
-        <SiNodedotjs className="text-green-700" key="node" />,
-        <SiExpress className="text-gray-600" key="express" />,
-        <SiMongodb className="text-green-600" key="mongodb" />,
-        <SiJavascript className="text-yellow-500" key="javascript" />,
-        <SiTypescript className="text-blue-300" key="typescript" />,
-        <SiTailwindcss className="text-blue-400" key="tailwind" />,
-      ],
-      link: "https://akatsuki.rcpit.ac.in/",
-      cover: "/akatsuki.png",
       background: "bg-green-500",
     },
     {
@@ -91,6 +75,31 @@ export default function Projects() {
       cover: "/kanban.png",
       background: "bg-green-500",
     },
+    {
+      title: "Akatsuki Coding Club's - Website  (Collabrated)",
+      tech: [
+        
+        <SiReact className="text-blue-500" key="react" />,
+        <SiTypescript className="text-blue-300" key="typescript" />,
+        <SiTailwindcss className="text-blue-400" key="tailwind" />,
+      ],
+      link: "https://akatsuki.rcpit.ac.in/",
+      cover: "/akatsuki.png",
+      background: "bg-green-500",
+    },
+    {
+      title: "Akatsuki Connect (Collabrated)",
+      tech: [
+        
+        <SiReact className="text-blue-500" key="react" />,
+        <SiJavascript className="text-yellow-500" key="javascript" />,
+        <SiTailwindcss className="text-blue-400" key="tailwind" />,
+      ],
+      link: "https://akatsuki-connect.vercel.app/",
+      cover: "/connect.png",
+      background: "bg-green-500",
+    },
+    
 
     {
       title: "News WebApp",
@@ -107,7 +116,7 @@ export default function Projects() {
       background: "bg-red-500",
     },
     {
-      title: "React Blog Application",
+      title: "React Blog Application ",
       tech: [
         <SiReact className="text-blue-500" key="react" />,
         <SiJavascript className="text-yellow-500" key="javascript" />,
